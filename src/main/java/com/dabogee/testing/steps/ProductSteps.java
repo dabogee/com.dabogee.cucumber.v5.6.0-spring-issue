@@ -1,5 +1,6 @@
 package com.dabogee.testing.steps;
 
+import com.dabogee.testing.components.ProductComponent;
 import io.cucumber.java.en.Given;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.RandomStringUtils;

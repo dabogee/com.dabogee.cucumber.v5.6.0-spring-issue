@@ -12,7 +12,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <test.threads.count>2</test.threads.count>
+        <test.threads.count>3</test.threads.count>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -152,7 +152,7 @@
                                 <argument>--threads</argument>
                                 <argument>${test.threads.count}</argument>
                                 <argument>--glue</argument>
-                                <argument>com.dabogee.testing.steps</argument>
+                                <argument>com.dabogee.testing</argument>
                                 <argument>--plugin</argument>
                                 <argument>pretty</argument>
                             </arguments>

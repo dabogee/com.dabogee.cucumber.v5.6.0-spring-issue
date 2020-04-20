@@ -1,9 +1,7 @@
-package com.dabogee.testing.steps.context;
+package com.dabogee.testing.context;
 
-import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ContextConfiguration;
 
-@DirtiesContext
 @ContextConfiguration(classes = DefaultContextConfiguration.class)
 class ContextConfigurer {
 }

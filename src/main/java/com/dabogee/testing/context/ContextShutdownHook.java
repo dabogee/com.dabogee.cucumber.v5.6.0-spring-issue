@@ -1,4 +1,4 @@
-package com.dabogee.testing.steps.context;
+package com.dabogee.testing.context;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
